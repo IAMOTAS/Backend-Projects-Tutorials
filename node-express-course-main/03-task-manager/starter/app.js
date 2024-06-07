@@ -1,6 +1,20 @@
 const express = require("express");
 const app = express();
 
+
+//routes
+
+app.get('/hello',(req,res)=>{
+    res.send("Task Management Section");
+})
+
+
+
+
+
+
+
+
 app.listen( "3000",()=>{
     console.log("Server is Up and running");
 })
